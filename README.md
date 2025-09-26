@@ -28,16 +28,18 @@ EventHub is a comprehensive event management application designed to enhance use
 [Dashboard]![Screenshot 2](screenshots/Screenshot%202.png)
 
 ### Event Creation & Details
-[Create Event Form]![Screenshot 3](screenshots/Screenshot%203.png)
-[Event Details]![Screenshot 4](screenshots/Screenshot%204.png)
+[Event Details after creation]![Screenshot 3](screenshots/Screenshot%203.png)
+[Create Event]![Screenshot 6](screenshots/Screenshot%206.png)
 
 ### Authentication
 [Register]![Screenshot 5](screenshots/Screenshot%205.png)
-[Login]![Screenshot 6](screenshots/Screenshot%206.png)
+[Login]![Screenshot 4](screenshots/Screenshot%204.png)
 
-### Event Participation
-[Participate]![Screenshot 7](screenshots/Screenshot%207.png)
-[User Profile]![Screenshot 8](screenshots/Screenshot%208.png)
+### Data
+[Firestore data]![Screenshot 7](screenshots/Screenshot%207.png)
+
+### File Structure
+[File structure]![Screenshot 8](screenshots/Screenshot%208.png)
 
 
 ## Installation
