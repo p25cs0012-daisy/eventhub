@@ -1,0 +1,51 @@
+{
+  "name": "eventhub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@react-google-maps/api": "^2.19.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "date-fns": "^2.30.0",
+    "filepond": "^4.30.4",
+    "filepond-plugin-image-crop": "^2.0.6",
+    "filepond-plugin-image-preview": "^4.6.11",
+    "filepond-plugin-image-transform": "^3.8.7",
+    "firebase": "^10.3.1",
+    "react": "^18.2.0",
+    "react-calendar": "^4.6.0",
+    "react-datepicker": "^4.16.0",
+    "react-dom": "^18.2.0",
+    "react-filepond": "^7.1.2",
+    "react-hook-form": "^7.45.4",
+    "react-infinite-scroller": "^1.2.6",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
+    "react-toastify": "^9.1.3",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^3.0.0-beta.0",
+    "use-places-autocomplete": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.54.1",
+    "@types/react": "^18.2.15",
+    "@types/react-datepicker": "^4.15.0",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-infinite-scroller": "^1.2.3",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
