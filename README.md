@@ -1,68 +1,17 @@
 # EventHub
 
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20230738.png)
-
----
-
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20230815.png)
-
----
-
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20230849.png)
-
----
-
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20230950.png)
-
----
-
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20231005.png)
-
----
-
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20231017.png)
-
----
-
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20231051.png)
-
----
-
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20231101.png)
-
----
-
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20231111.png)
-
----
-
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20231121.png)
-
----
-
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20231154.png)
-
----
-
-![Screenshot](https://raw.githubusercontent.com/elvan/social-events-app-react-redux-firebase/main/_screenshots_/Screenshot%202024-02-19%20231206.png)
-
 ## Description
 
 EventHub is a comprehensive event management application designed to enhance user engagement through real-time interaction and comprehensive event details. It streamlines the process of creating, attending, and managing events with integrated Google Maps, live chat, and social features. EventHub solves the problem of fragmented event planning and participation by providing a unified platform for users to connect, share, and engage with events in their community.
 
 ## Features
 
-- **Dynamic Event Management** - Features like infinite scrolling for event browsing and Firestore queries for efficient data retrieval and updates. The app supports CRUD operations for events, with added functionalities for attending or canceling attendance, showcased through intuitive UI components.
+- Dynamic Event Management with scrolling, CRUD, and Firestore queries.
+- Real-time Chat and Event Updates utilizing Firebase Realtime Database and Cloud Functions.
+- User Authentication with Firebase Authentication and Profile Management.
+- Enhanced UI/UX powered by Semantic UI React and consistent date formatting with date-fns.
 
-- **Real-time Chat and Event Updates** - Utilizing Firebase Realtime Database, users can engage in live chat within events, enhancing interaction. Firestore's cloud functions ensure users receive notifications about event-related activities, keeping them informed and engaged.
-
-- **Google Maps Integration and Autocomplete** - Event locations are enriched with Google Maps, offering visual context and convenience. The PlaceInput component, alongside Google Maps API, provides location search and autocomplete functionality, improving the event creation experience.
-
-- **User Authentication and Profile Management** - Integrates Firebase Authentication for login, registration, and social login options, coupled with Firestore for profile management. Users can follow/unfollow others, reflecting in real-time across the app.
-
-- **Enhanced UI/UX** - Incorporates Semantic UI for a rich interface, with custom components like EmptyState and UnauthComponent for a seamless user experience. The application employs date-fns for consistent date formatting across the platform.
-
-#### Technology Stack
+## Technology Stack
 
 - React.js
 - Semantic UI React
@@ -77,33 +26,3 @@ EventHub is a comprehensive event management application designed to enhance use
 
 - Node.js and npm
 - Firebase CLI
-
-### Environment Setup
-
-1. Clone the repository: `git clone https://github.com/elvan/social-events-app-react-redux-firebase.git`
-2. Navigate to the project directory: `cd social-events-app-react-redux-firebase`
-3. Install dependencies: `npm install`
-
-### Firebase Setup
-
-1. Create a Firebase project in the Firebase Console.
-2. Enable Firestore, Realtime Database, Authentication, and Cloud Functions.
-3. Configure Firebase in the app by creating a `.env` file in the root directory with your Firebase keys.
-
-## Usage
-
-After installation, start the development server:
-
-```bash
-npm run dev
-```
-
-Navigate to `http://localhost:3000` to view the app. Explore the features by creating events, engaging in live chats, and managing your profile.
-
-For deploying to Firebase Hosting:
-
-```bash
-firebase deploy
-```
-
-This command builds the app and deploys it to Firebase Hosting, making your application accessible online.
