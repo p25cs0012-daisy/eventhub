@@ -20,6 +20,25 @@ EventHub is a comprehensive event management application designed to enhance use
 - Vite
 - TypeScript
 
+  ## Screenshots
+
+### Home and Dashboard
+![Home Page](screenshots/Screenshot-1.jpg)
+![Dashboard](screenshots/Screenshot-2.jpg)
+
+### Event Creation & Details
+![Create Event Form](screenshots/Screenshot-3.jpg)
+![Event Details](screenshots/Screenshot-4.jpg)
+
+### Authentication
+![Register](screenshots/Screenshot-5.jpg)
+![Login](screenshots/Screenshot-6.jpg)
+
+### Event Participation
+![Participate](screenshots/Screenshot-7.jpg)
+![User Profile](screenshots/Screenshot-8.jpg)
+
+
 ## Installation
 
 ### Prerequisites
