@@ -23,7 +23,8 @@ EventHub is a comprehensive event management application designed to enhance use
   ## Screenshots
 
 ### Home and Dashboard
-https://github.com/p25cs0012-daisy/eventhub/blob/main/screenshots/Screenshot%201.png
+![Screenshot 1](screenshots/Screenshot%201.png)
+
 ![Home Page]([screenshots/Screenshot-1.jpg](https://github.com/p25cs0012-daisy/eventhub/blob/main/screenshots/Screenshot%201.png))
 ![Dashboard](screenshots/Screenshot-2.jpg)
 
